@@ -26,7 +26,7 @@ const Navbar = () => {
           <span>0123456789</span>
         </div>
         {!user ? (
-          <Link href="/">Login</Link>
+          <Link href="/login">Login</Link>
         ) : (
           <Link href="/orders">Orders</Link>
         )}
