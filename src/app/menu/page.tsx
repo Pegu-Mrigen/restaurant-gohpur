@@ -14,7 +14,7 @@ const MenuPage = () => {
         >
           <div className={`text-${category.color} w-1/2 md:p-4`}>
             <h1 className="uppercase font-bold text-lg md:text-xl">{category.title}</h1>
-            <p className="text-sm lg:text-sm my-4">{category.desc}</p>
+            <p className="text-sm lg:text-sm md:my-4">{category.desc}</p>
             <button
               className={`hidden 2xl:block bg-${category.color} text-${
                 category.color === "black" ? "white" : "red-500"
