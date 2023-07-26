@@ -12,8 +12,8 @@ const MenuPage = () => {
           style={{ backgroundImage: `url(${category.img})` }}
           className="w-full h-1/3 bg-cover p-8 md:h-1/2"
         >
-          <div className={`text-${category.color} w-1/2 p-4`}>
-            <h1 className="uppercase font-bold text-xl md:text-xl">{category.title}</h1>
+          <div className={`text-${category.color} w-1/2 md:p-4`}>
+            <h1 className="uppercase font-bold text-lg md:text-xl">{category.title}</h1>
             <p className="text-sm lg:text-sm my-4">{category.desc}</p>
             <button
               className={`hidden 2xl:block bg-${category.color} text-${
